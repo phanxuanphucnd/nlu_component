@@ -8,11 +8,16 @@
 
 pip uninstall denver  # if existed.
 
+pip install denver # from repo: https://github.com/phanxuanphucnd/denver
+
+
 pip uninstall salebot_nlu  # if existed.
 
-pip install http://minio.dev.ftech.ai/resources-denver-v0.0.2-75854855/denver-0.0.2b0-py3-none-any.whl
+# create lib
 
-pip install http://minio.dev.ftech.ai/denver-salebot-nlu-component-latest-3b3ee6a3/salebot_nlu-1.0.1-py3-none-any.whl
+python setup.py bdist_wheel
+
+pip install dist/{name of library}
 
 ```
 
