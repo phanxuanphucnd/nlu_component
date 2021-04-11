@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: salebot-nlu
+Version: 0.0.1
+Summary: Salebot-NLU is a library to custom NLU component in Rasa Framework.
+Home-page: https://gitlab.ftech.ai/partnership/facebook-chatbot/rasa/custom-nlu-components/denvernlucomponent
+Author: phucpx
+Author-email: phucpx@ftech.ai
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: salebot_nlu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.x
+Requires-Python: >=3.6
